@@ -53,3 +53,12 @@ Examples
 --------
 
 The [scripts](scripts/) folder contains predefined scripts and examples for running the code. A brief description can be found in each script file.
+
+An easy solution to train and test all models is to run the following scripts
+
+```
+./scripts/train_gm.sh 
+./scripts/train_tx.sh 
+# mixed has to be last
+./scripts/train_mixed.sh 
+```
