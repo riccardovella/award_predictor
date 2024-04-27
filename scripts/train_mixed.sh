@@ -1,0 +1,1 @@
+python src/award_predictor/main.py ~/award_predictor/out --gm_data_path ~/award_predictor/dataset/graph_measures_d2.npz --tx_data_path ~/award_predictor/dataset/text_features.npz -hd 1 -l 0.05 -e 5 -s 0 -n mixed -m --gm_model_path ~/award_predictor/out/gm/best_loss.pt --tx_model_path ~/award_predictor/out/tx/best_f1.pt
