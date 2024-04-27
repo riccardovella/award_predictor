@@ -15,7 +15,7 @@ It is preferred to create an environment for installing packages
 
 ```
 cd award_predictor
-python -m venv env
+python3 -m venv env
 source env/bin/activate
 ```
 
