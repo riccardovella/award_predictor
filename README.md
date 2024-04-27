@@ -13,8 +13,8 @@ git clone https://github.com/riccardovella/award_predictor
 It is preferred to create an environment for installing packages
 
 ```
-cd /award_predictor
-python -m venv /env
+cd award_predictor
+python -m venv env
 source env/bin/activate
 ```
 
