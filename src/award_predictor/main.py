@@ -91,7 +91,7 @@ def main(args):
 
     # create out directory 
     out_dir = Path(args.outdir)
-    if not out_dir.exists:
+    if not out_dir.exists():
         out_dir.mkdir()
     if args.unique_name: 
         dt = datetime.now()
