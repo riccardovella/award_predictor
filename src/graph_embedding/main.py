@@ -39,7 +39,10 @@ def main(args):
     np.savez(args.graph_measures_path, X=X, y=y)
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser(
+        prog="Graph Embedding Builder",
+        description="Builds the graph embedding file from the small graphs dataset"
+    )
 
     parser.add_argument("small_graphs_path", type=Path,
                         help="The path for the small graph dataset")

@@ -120,7 +120,11 @@ def main(args):
     test_and_plot(plots_dir, model, loss_fn, test_dataloader, device)
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser(
+        prog="Research Award Predictor",
+        description='Trains and tests the machine learning models described in the research' + \
+        ' and thesis project "Predicting Award Winning Research Papers at Publication Time"'
+    )
 
     parser.add_argument("outdir", type=Path,
                         help="The directory where models and results are saved")
