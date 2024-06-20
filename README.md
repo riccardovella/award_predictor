@@ -1,6 +1,6 @@
 # Predicting Award Winning Research Papers at Publication Time
 
-This repository contains the code for training and testing the machine learning models described in the research and thesis project "Predicting Award Winning Research Papers at Publication Time" by Riccardo Vella.
+This repository contains the code for training and testing the machine learning models described in the research and thesis project ["Predicting Award Winning Research Papers at Publication Time"](https://arxiv.org/abs/2406.12535) by Riccardo Vella, Andrea Vitaletti and Fabrizio Silvestri.
 
 Installation
 ------------
